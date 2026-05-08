@@ -61,7 +61,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brand-border mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-brand-muted">© 2024 TradeTrack X. Free to use. No spam.</p>
+          <p className="text-xs text-brand-muted">© 2026 TradeTrack X. Free to use. No spam.</p>
+          <p className="text-sm text-gray-400">
+              Crafted by Arvind Pareek ⚡
+          </p>
           <p className="text-xs text-brand-muted font-mono">
             Not financial advice. Trade responsibly.
           </p>

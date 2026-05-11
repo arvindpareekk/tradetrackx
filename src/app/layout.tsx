@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from 'next'
 import '../styles/globals.css'
 import Navbar from '@/components/layout/Navbar'
@@ -23,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
-      </body>
+      <GoogleAnalytics gaId="G-F9CRZ2T24V" />
     </html>
   )
 }

@@ -111,10 +111,10 @@ export default function TradingJournal() {
   }));
 
   return (
-    <main className="min-h-screen bg-black text-white p-10">
+    <main className="min-h-screen bg-black text-white p-4 md:p-10">
 
       {/* Header */}
-      <h1 className="text-5xl font-bold text-green-400 mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold text-green-400 mb-4">
         Trading Journal
       </h1>
 
@@ -124,7 +124,7 @@ export default function TradingJournal() {
       </p>
 
       {/* Dashboard Stats */}
-      <div className="grid md:grid-cols-4 gap-6 mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
 
         {/* Total Trades */}
         <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6">
@@ -183,7 +183,7 @@ export default function TradingJournal() {
           Profit Analytics
         </h2>
 
-        <div className="h-80">
+        <div className="h-64 md:h-80">
 
           <ResponsiveContainer width="100%" height="100%">
 
@@ -345,7 +345,7 @@ export default function TradingJournal() {
 
             <div
               key={index}
-              className="bg-gray-900 border border-gray-800 rounded-xl p-5 flex justify-between items-center"
+              className="bg-gray-900 border border-gray-800 rounded-xl p-5 flex flex-col md:flex-row justify-between md:items-center gap-4"
             >
 
               <div>
